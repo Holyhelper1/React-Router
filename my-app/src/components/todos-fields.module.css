@@ -1,0 +1,93 @@
+.todosText {
+    border: 1px solid #61dafb;
+  color: #61dafb;
+  width: 50%;
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+
+.todosNumber {
+    color: aquamarine;
+  padding-right: 5px;
+  width: 100px;
+  border-right: 1px solid #61dafb;
+  border-bottom: 1px solid #61dafb;
+}
+
+.searchWrapper{
+    display: flex;
+    align-items: center;
+justify-content: flex-start;
+
+
+}
+.inputSearch{
+    margin-top: 10px;
+    margin-left: 20px;
+    display: flex;
+  width: 40%;
+  height: calc(2.25rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #cecfcf;
+  background-color: #283a51;
+  background-clip: padding-box;
+  border: 1px solid #bdbdbd;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.abcSearch{
+  margin-top: 10px;
+  margin-left: 20px;
+  display: flex;
+width: 5%;
+height: calc(2.25rem + 2px);
+padding: 0.375rem 0.75rem;
+font-family: inherit;
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.5;
+color: #cecfcf;
+background-color: #283a51;
+background-clip: padding-box;
+border: 1px solid #bdbdbd;
+border-radius: 0.25rem;
+transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.abcText{
+  font-size: 20px;
+    color: #14cce9;
+    margin-left: 10px;
+    
+}
+
+input::-webkit-input-placeholder {
+  color: #14cce9;
+}
+
+.todosLoader{
+    font-size: 25px;
+    color: #14cce9;
+}
+
+.buttonDelete {
+   background-color: #283a51;
+   color: #e91414;
+   border-radius: 10px;
+   
+}
+.buttonEdit{
+    background-color: #283a51;
+    color: #14e970;
+    border-radius: 10px;
+    margin: 10px;
+}
+
